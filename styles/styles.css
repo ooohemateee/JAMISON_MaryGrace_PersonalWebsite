@@ -8,7 +8,6 @@ body{
 	  width: 100%;
 	  background-image: url("bg2.png");
 	  background-size: cover;
-
 }
 
 #Header{
@@ -50,22 +49,22 @@ h3{
 	padding: 5px;
 }
 #wrap {
-width:800px;
-margin:0 auto;
-padding: 70px;
+	width:800px;
+	margin:0 auto;
+	padding: 70px;
 }
 #main {
-float:left;
-width:440px;
-padding:10px;
-background:#033d48;
+	float:left;
+	width:440px;
+	padding:10px;
+	background:#033d48;
 }
 
 #sidebar {
-float:right;
-width: 320px;
-padding:10px;
-background:#033d48;
+	float:right;
+	width: 320px;
+	padding:10px;
+	background:#033d48;
 }
 
 #border{
