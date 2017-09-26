@@ -87,3 +87,9 @@ p{
 }
 
 
+.fling-minislide {width:270px; height:250px; padding-bottom: 50%; overflow:hidden; position:relative; }
+
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+
+
