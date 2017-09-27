@@ -15,7 +15,6 @@ body{
     height: 55px;
 	background-color: #033d48;
     position: fixed;
-    top: 0px;
 }
 
 #NavBar{
@@ -30,8 +29,8 @@ a{
 ul li{
     float: right;
     list-style: none;
-    width: 85px;
-    height: 60px;
+    width: 60px;
+    height: 70px;
     line-height: 45px;
 }
 
@@ -40,13 +39,24 @@ ul li{
     filter: alpha(opacity=50); 
 }
 
+#im{
+	padding: 5px;
+}
+
 #img1{
 	float: left;
 }	
 h3{
-	border: solid 2px white;
-	color: #7ed6e2;
+	border-radius: 25px;
+	border: solid 2px #033d48;
+	color: black;
 	padding: 5px;
+}
+
+#sk{
+	padding: 5px;
+	width: 280px;
+	height: 220px;
 }
 #wrap {
 	width:800px;
@@ -57,35 +67,39 @@ h3{
 	float:left;
 	width:440px;
 	padding:10px;
-	background:#033d48;
+	background-color: rgba(255,255,255,0.5);
 }
 
 #sidebar {
 	float:right;
 	width: 320px;
 	padding:10px;
-	background:#033d48;
+	background-color: rgba(255,255,255,0.5);
 }
 
 #border{
+	border-radius: 25px;
 	border-style: double;
 	border-width: 8px;
 	padding: 7px;
-	color: white;
+	color: #033d48;
 }
 
 p{
 	padding: 5px;
-	color: white;
+	color:#033d48;
 	font-size: 19px;
 }
 
 #im2{
 	float: left;
-	padding: 10px;
-	padding-top: 36px;
+	padding-top: 30px;
+	
 }
-
+#pic{
+	
+	float: left;
+}
 
 .fling-minislide{
 	width: 270px; 

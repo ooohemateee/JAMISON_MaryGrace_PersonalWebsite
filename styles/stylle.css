@@ -10,12 +10,12 @@ body{
 	  background-size: cover;
 }
 
+
 #Header{
     width: 100%;
     height: 55px;
 	background-color: #033d48;
     position: fixed;
-    top: 0px;
 }
 
 #NavBar{
@@ -30,8 +30,8 @@ a{
 ul li{
     float: right;
     list-style: none;
-    width: 85px;
-    height: 60px;
+    width: 60px;
+    height: 70px;
     line-height: 45px;
 }
 
@@ -40,6 +40,9 @@ ul li{
     filter: alpha(opacity=50); 
 }
 
+#im{
+	padding: 5px;
+}
 #img1{
 	float: left;
 }	
