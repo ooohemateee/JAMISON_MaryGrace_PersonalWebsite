@@ -46,11 +46,12 @@ ul li{
 #img1{
 	float: left;
 }	
-h3{
+h2{
 	border-radius: 25px;
 	border: solid 2px #033d48;
 	color: black;
 	padding: 5px;
+	font-family: fourHand_TRIAL;
 }
 
 #sk{
@@ -88,13 +89,13 @@ h3{
 p{
 	padding: 5px;
 	color:#033d48;
-	font-size: 19px;
+	font-size: 21px;
+	font-family: Monotype Corsiva;
 }
 
 #im2{
-	float: left;
-	padding-top: 30px;
 	
+	padding-top: 35px;
 }
 #pic{
 	
