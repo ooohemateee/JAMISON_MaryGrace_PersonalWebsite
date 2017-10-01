@@ -63,12 +63,14 @@ h2{
 	width:800px;
 	margin:0 auto;
 	padding: 70px;
+	height: 500px;
 }
 #main {
 	float:left;
 	width:440px;
 	padding:10px;
 	background-color: rgba(255,255,255,0.5);
+	height: auto;
 }
 
 #sidebar {
@@ -76,6 +78,7 @@ h2{
 	width: 320px;
 	padding:10px;
 	background-color: rgba(255,255,255,0.5);
+	height: auto;
 }
 
 #border{
@@ -84,6 +87,7 @@ h2{
 	border-width: 8px;
 	padding: 7px;
 	color: #033d48;
+	height: auto;
 }
 
 p{
@@ -102,24 +106,187 @@ p{
 	float: left;
 }
 
-.fling-minislide{
-	width: 270px; 
-	height: 270px; 
-	padding-bottom: 50%; 
-	overflow: hidden; 
-	position: relative;
+#cc{
+	background: rgba(255,255,255,0.5);
+	width: 800px;
+}
+	
+#wrapp {
+	width: 800px;
+	margin:0 auto;
 }
 
-.fling-minislide img{ 
-	position: absolute; 
-	animation: fling-minislide 20s infinite; 
-	opacity: 0; 
-	width: 100%; 
-	height: auto;
+#mainn {
+	float: left;
+	width: 400px;
+	height: 340px;
+	padding:10px;
+	background: rgba(255,255,255,0.5);
 }
 
-@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
-.fling-minislide img:nth-child(4){animation-delay:5s;}
-.fling-minislide img:nth-child(3){animation-delay:10s;}
-.fling-minislide img:nth-child(2){animation-delay:15s;}
-.fling-minislide img:nth-child(1){animation-delay:20s;}
+#sidebarr {
+	float:right;
+	width: 360px;
+	padding:10px;
+	background: rgba(255,255,255,0.5);
+	height: 340px;
+}
+
+
+
+#im2{
+	float: left;
+	padding: 10px;
+	padding-top: 36px;
+}
+
+
+
+h1{
+	color: #033d48;
+	font-size: 50px;
+	font-family: Berlin Sans FB;
+	padding: 10px;
+
+}
+
+
+#imm1{
+	float: left;
+	padding-left: 130px;
+	width: 150px;
+	height: 110px;
+}
+
+#imm2{
+	float: left;
+	padding-right: 30px;
+	width: 110px;
+	height: 90px;
+}
+#imm4{
+	float: left;
+	padding-left: 110px;
+	width: 120px;
+	height: 90px;
+}
+
+#imm5{
+	float: left;
+	padding-left: 90px;
+	width: 90px;
+	height: 90px;
+}
+
+#imm3{
+	float: right;
+	padding-right: 90px;
+	width: 90px;
+	height: 90px;
+}
+
+h3{
+	font-size: 25px;
+	font-family: Berlin Sans FB;
+	color: #033d48;
+	float: left;
+}
+
+#p11{
+	padding-left: 80px;
+}
+
+#p12{
+	padding-top: 10px;
+	padding-left: 90px;
+}
+#p13{
+	padding-left: 40px;	
+}
+#p14{
+	padding-top: 5px;
+	padding-left: 127px;
+}
+
+.mySlides{
+	display: none
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 5px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+#Footer{
+    width: 100%;
+    height: 130px;
+    background-color: #033d48; 
+    text-align:center;
+    position: absolute;
+    left: 0px;
+}
+
+h4{
+	font-size: 18px;
+	color:white;
+	font-family: AF TOMMY HILFIGER;
+}
