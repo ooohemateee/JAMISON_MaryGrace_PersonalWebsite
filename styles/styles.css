@@ -49,9 +49,10 @@ ul li{
 h2{
 	border-radius: 25px;
 	border: solid 2px #033d48;
-	color: black;
+	color: #033d48;
 	padding: 5px;
 	font-family: fourHand_TRIAL;
+	text-align: center;
 }
 
 #sk{
@@ -97,12 +98,8 @@ p{
 	font-family: Monotype Corsiva;
 }
 
-#im2{
-	
-	padding-top: 35px;
-}
 #pic{
-	
+	padding-top: 48px;
 	float: left;
 }
 
@@ -132,24 +129,18 @@ p{
 	height: 340px;
 }
 
-
-
 #im2{
 	float: left;
 	padding: 10px;
 	padding-top: 36px;
 }
 
-
-
 h1{
 	color: #033d48;
 	font-size: 50px;
 	font-family: Berlin Sans FB;
 	padding: 10px;
-
 }
-
 
 #imm1{
 	float: left;
