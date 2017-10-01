@@ -9,12 +9,11 @@ body {
   background-size: cover;
 }
 
-/* Style the header */
 .header {
     padding: 10px;
 	width: 100%;
 }
-/* Style the top navigation bar */
+
 .topnav {
     text-align: center;
     background-color: #053f4a;
@@ -24,7 +23,6 @@ body {
 	margin: 0 auto;
 }
 
-/* Style the topnav links */
 .topnav a {
     color: #f2f2f2;
 	text-decoration: none;
@@ -35,7 +33,7 @@ body {
 .topnav li {
 	display: block;
 }
-/* Change color on hover */
+
 .topnav a:hover {
     color: #7ed6e2;
 }
