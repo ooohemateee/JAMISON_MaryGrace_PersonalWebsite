@@ -11,7 +11,7 @@
 				
 				  <ul>
                     	<img id="img1" src="img/lgg.png" height="55px" width="250px">
-						<li><a href="contact.html"><img id="im" src="img/contact.png" height="45px" width="45px"></a></li>
+						<li><a href="#contact"><img id="im" src="img/contact.png" height="45px" width="45px"></a></li>
 						<li><a href="#about"><img id="im"  src="img/profille.png" height="45px" width="45px"></a></li>
                     	<li><a href="index.html"><img id="im"  src="img/home.png" height="45px" width="45px"></a></li>
                   </ul> 
@@ -40,6 +40,7 @@
 							<p><b><font color="black">Elementary:</font> Ma-a Central Elementary School</b></p>
 							<p><b><font color="black">High School:</font> Ma-a National High School</b></p>
 							<p><b><font color="black">College:</font> University of Southeastern Philippines</b></p>
+							
 						</div>
 					</div>
 					
@@ -47,16 +48,112 @@
 							<div id="border">
 								<center><h2>Skills</h2></center>
 								<img id="sk" src="img/skill.png">
-									<div class="fling-minislide">
-										<center><h2>My Works</h2></center>
-										<img src="img/4.png" alt="Slide 4" />
-										<img src="img/3.jpg" alt="Slide 3" />
-										<img src="img/2.jpg" alt="Slide 2" />
-										<img src="img/1.jpg" alt="Slide 1" />
+								<center><h2>My Works</h2></center>
+									<div class="slideshow-container">
+										<div class="mySlides fade">
+											<img src="img/1.jpg" style="width:100%" height="330px">
+										</div>
+
+										<div class="mySlides fade">
+											<img src="img/2.jpg" style="width:100%" height="330px">
+										</div>
+
+										<div class="mySlides fade">
+											<img src="img/3.jpg" style="width:100%" height="330px">
+										</div>
+
+										<div class="mySlides fade">
+											<img src="img/4.png" style="width:100%" height="330px">
+										</div>
+					
+											<center>
+												<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+												<a class="next" onclick="plusSlides(1)">&#10095;</a>
+											</center>
 									</div>
+									<br>
+
+												<div style="text-align:center">
+												  <span class="dot" onclick="currentSlide(1)"></span> 
+												  <span class="dot" onclick="currentSlide(2)"></span> 
+												  <span class="dot" onclick="currentSlide(3)"></span> 
+												  <span class="dot" onclick="currentSlide(4)"></span> 
+												</div>
+
 							</div>
 						</div>
-			</div>
-		
+			
+								<a id="contact"></a>
+								<br><br><br><br><br><br><br>
+									<div id="cc">
+									<br> <br>
+										<center><h1><hr><hr>Get  In  Touch</h1></center>
+									<hr><hr>
+										<div id="wrapp">
+											<div id="mainn">
+												<img id="imm1" src="img/email.png">
+												<br><br><br><br><br>
+												<h3 id="p11">mrygrcjmsn@gmail.com</h3>
+												<br><br><br><br>
+												<img id="imm1" src="img/num.png">
+												<br><br><br><br><br>
+												<h3 id="p14">09095941968</h3>											
+											</div>
+				
+											<div id="sidebarr">
+												<img id="imm4" src="img/fb.png">
+												<br>
+													<h3 id="p13">&nbsp;&nbsp;Mary Grace P. Jamison </h3>
+												<br><br><br><br><br><br><br><br>
+													<img id="imm5" src="img/ig.png"><img id="imm3" src="img/tw.png">
+												<br><br><br>
+													<h3 id="p12">@ooohemateee</h3>
+											</div>
+										</div>
+											<hr><hr>
+											
+									</div>
+											<br><br>
+											
+											<div id="Footer">
+									<br>
+									<a href id="#top"><center><img src="img/arr.png" height="50px"></center></a> <!-- arrow to top -->
+									
+									<br>
+									<h4> Copyright 2017 - MGJP. All rights reserved. </h4>
+	
+               
+                </div>
+            </div>
+				
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 </body>
 </html>
